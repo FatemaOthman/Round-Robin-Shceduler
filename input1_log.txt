@@ -1,0 +1,34 @@
+==================================================
+Queue T1 
+Executing Process: T1 Started At : 0 Finished At : 23
+==================================================
+Queue T2 T3 
+Executing Process: T2 Started At :24 Stopped At : 74 Remaining Time :25
+Process Switching :   Started At : 75   Finished At : 77
+==================================================
+Queue T3 T4 T5 T6 T2 
+Executing Process: T3 Started At :78 Stopped At : 128 Remaining Time :43
+Process Switching :   Started At : 129   Finished At : 131
+==================================================
+Queue T4 T5 T6 T2 T7 T3 
+Executing Process: T4 Started At : 132 Finished At : 180
+==================================================
+Queue T5 T6 T2 T7 T3 
+Executing Process: T5 Started At : 181 Finished At : 183
+==================================================
+Queue T6 T2 T7 T3 
+Executing Process: T6 Started At : 184 Finished At : 189
+==================================================
+Queue T2 T7 T3 
+Process Switching :   Started At : 190   Finished At : 192
+Executing Process: T2 Started At : 193 Finished At : 218
+==================================================
+Queue T7 T3 
+Executing Process: T7 Started At : 219 Finished At : 228
+==================================================
+Queue T3 
+Process Switching :   Started At : 229   Finished At : 231
+Executing Process: T3 Started At : 232 Finished At : 275
+==================================================
+Queue T8 
+Executing Process: T8 Started At : 300 Finished At : 310
